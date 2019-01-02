@@ -1,0 +1,105 @@
+.name{
+   font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: name 1s ease-in-out infinite alternate;
+  -moz-animation: name 1s ease-in-out infinite alternate;
+  animation: name 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes name{
+  from {
+    text-shadow: 0 0 10px #053BE3, 0 0 20px #053BE3, 0 0 30px #0B75AB, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #053BE3, 0 0 30px #2CBAD3, 0 0 40px #1BBAD6, 0 0 50px #35C9E3, 0 0 60px #39D2ED, 0 0 70px #17D8FA, 0 0 80px #03D5FA;
+  }
+}
+body
+{
+    background-color: #C0FCFC;
+}
+img{
+    height:40vw;width: 80vw;
+    align-items: center;
+    margin-left: 10vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-image-outset: 5vw;
+}
+#motto{
+    color:black;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+    text-align: right;
+    margin-right: 5em;
+}
+#credit{
+    font-weight: lighter;
+    text-align: right;
+    margin-right: 5em;
+    font-size: xx-large;
+}
+#motto2{
+    color:black;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+    text-align: left;
+    margin-left: 5em;
+}
+#credit2{
+    text-align: left;
+    margin-left: 5em;
+    font-size: xx-large;
+}
+.display-4{
+    font-family: "DejaVu Sans", serif;
+    text-shadow: steelblue;
+    text-decoration-color: darkblue;
+    text-align: center;
+}
+.lead{
+    text-align: center;
+    margin-right: revert;
+    margin-left: auto;
+}
+.parallax {
+    /* The image used */
+    background-image: url("cr1.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.click {
+    background-color: #62787C;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.click:hover {opacity: 1}
+
+#myDIV{
+
+}
+/*p img{*/
+    /*height: 10vw;*/
+    /*width: 17vw;*/
+    /*border: steelblue;*/
+/*}*/
