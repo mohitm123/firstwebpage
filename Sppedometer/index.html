@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedometer</title>
+</head>
+<body onload='draw(0)'>
+    <h3>Speedometer</h3>
+    <canvas id="speedometer" width="450" height="225">
+        Canvas Not Found :(
+    </canvas>
+    <div class="container p-3 my-3 border">
+        <form id="drawTemp">
+            <input type="text" id="txtSpeed" name="txtSpeed" value="20" placeholder="Enter speed here" maxlength="2"/>
+            <hr>
+            <button type="button" class="btn btn-primary" value="Set Here" onclick="drawWithInputValue()">Set Speed</button>
+            <br>
+            <h6> 
+                Press button once to start odometer
+            </h6>
+        </form>
+    </div>
+    
+</body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+<script src="main.js"></script>
+</html>
