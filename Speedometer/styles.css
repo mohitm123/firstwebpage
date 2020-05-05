@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+#speedometer{
+    padding: 5%;
+    scale: 1.5;
+}
+#txtSpeed {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    padding-left: 5%;
+    font-weight: 500;
+    height: 50px;
+}
+h6{
+    padding: 2%;
+}
+h3{
+    text-align: center;
+    color: crimson;
+    border: crimson;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 3%;
+    font-size: 80px;
+}
